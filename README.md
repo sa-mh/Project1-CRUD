@@ -1,9 +1,8 @@
 # Project1-CRUD
 
 # Online Personal Reading List 
-* Site:
-* Site GIT:
-* Jira Board:https://bookproject.atlassian.net/secure/RapidBoard.jspa?projectKey=SBP&rapidView=1&view=planning.nodetail&atlOrigin=eyJpIjoiNTM4NDM1MDFjNTFhNDFkNWIwNzNjZWI2NzZjNGU4NzEiLCJwIjoiaiJ9
+* Site GIT: https://github.com/sa-mh/Project1BooksWebpage.git
+* Jira Board:https://bookproject.atlassian.net/secure/RapidBoard.jspa?projectKey=SBP&rapidView=1&atlOrigin=eyJpIjoiOWQxNjVmNDE4NmVmNDBjYmIxYTYyZjU0NjE3ZGJiMGEiLCJwIjoiaiJ9projectKey=SBP&rapidView=1&view=planning.nodetail&atlOrigin=eyJpIjoiNTM4NDM1MDFjNTFhNDFkNWIwNzNjZWI2NzZjNGU4NzEiLCJwIjoiaiJ9
 * Presetation: https://docs.google.com/presentation/d/1LSOZDnz0sRFfmGb9gHT25gy5cS94dtthS_C1mkCLwRA/edit?usp=sharing
 
 ## Contents
@@ -61,7 +60,15 @@ The database is comprised of one table with the following properties:
 
 ## Project Tracking
 
-The project management tool used for keeping track of the project was a jira scrum board. I organised the project into two sprints. The first containing the basic site functionality and the second consisting of hte extra features. The basic functionality sprint was completed with all items being done while sprint two is still in the in progress phase.
+The project management tool used for keeping track of the project was a jira scrum board. I organised the project into two sprints. 
+
+The first containing the basic site functionality and the second consisting of hte extra features. 
+![sprint][sprint]
+
+The basic functionality sprint was completed with all items being done while sprint two is still in the in progress and to do phases.
+![sprint2][sprint2]
+
+
 
 The JIRA board can be found here : https://bookproject.atlassian.net/secure/RapidBoard.jspa?projectKey=SBP&rapidView=1&view=planning.nodetail&atlOrigin=eyJpIjoiNTM4NDM1MDFjNTFhNDFkNWIwNzNjZWI2NzZjNGU4NzEiLCJwIjoiaiJ9
 
@@ -82,6 +89,8 @@ The front end of the website is extremely basic and underwhelming in its current
 * Search Fields
 * The Carousel
 * The Input Fields
+
+![site][site]
 
 ### Search Fields
 
@@ -126,6 +135,8 @@ One of the future features planned for the future are a search and filtering sys
 
 Another feature would be the custom book covers for different books. At present all of the covers are a default blank cover however in future the users should be able to able to change that cover either through inputing the ISBN so that it can be found from a third party site or through uploading their own image.
 
-A change in CSS design would be necessary as the current design of the website is 
+A change in CSS design would be necessary as the current design of the website is distinctly lacking and unappealing.
 
-## Authors
+[site]: https://imgur.com/ePcE0fg
+[sprint2]: https://imgur.com/iEhs75O
+[sprint]: https://imgur.com/bL9CrXO
