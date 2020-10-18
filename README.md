@@ -3,8 +3,8 @@
 # Online Personal Reading List 
 * Site:
 * Site GIT:
-* Jira Board:
-* Presetation:
+* Jira Board:https://bookproject.atlassian.net/secure/RapidBoard.jspa?projectKey=SBP&rapidView=1&view=planning.nodetail&atlOrigin=eyJpIjoiNTM4NDM1MDFjNTFhNDFkNWIwNzNjZWI2NzZjNGU4NzEiLCJwIjoiaiJ9
+* Presetation: https://docs.google.com/presentation/d/1LSOZDnz0sRFfmGb9gHT25gy5cS94dtthS_C1mkCLwRA/edit?usp=sharing
 
 ## Contents
 * [Requirements](#requirements)
