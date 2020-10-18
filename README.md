@@ -63,6 +63,8 @@ The database is comprised of one table with the following properties:
 
 ## Project Tracking
 
+The project management tool used for keeping track of the project was a jira scrum board. I organised the project into two sprints. The first containing the basic site functionality and the second consisting of hte extra features. The basic functionality sprint was completed with all items being done while sprint two is still in the in progress phase.
+
 The JIRA board can be found here : https://bookproject.atlassian.net/secure/RapidBoard.jspa?projectKey=SBP&rapidView=1&view=planning.nodetail&atlOrigin=eyJpIjoiNTM4NDM1MDFjNTFhNDFkNWIwNzNjZWI2NzZjNGU4NzEiLCJwIjoiaiJ9
 
 ## Risk Assessment
