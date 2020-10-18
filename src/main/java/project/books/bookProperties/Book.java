@@ -33,7 +33,19 @@ public class Book {
 		this.pages = pages;
 		this.rating = rating;
 		this.isbn = 0;
-		this.coverURL = "";
+		this.coverURL = "bookCover.jpg";
+	}
+
+	public Book(String title, String author, String genre, String status, int pages, int rating, int isbn) {
+		this.title = title;
+		this.author = author;
+		this.genre = genre;
+		this.status = status;
+
+		this.pages = pages;
+		this.rating = rating;
+		this.isbn = isbn;
+		this.coverURL = "bookCover.jpg";
 	}
 
 	public String getGenre() {
