@@ -2,13 +2,14 @@ package project.books.bookProperties;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class Book {
 
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	private String title;
 	private String author;
@@ -28,10 +29,23 @@ public class Book {
 		this.author = author;
 		this.genre = genre;
 		this.status = status;
+
 		this.pages = pages;
 		this.rating = rating;
 		this.isbn = 0;
-		this.coverURL = "";
+		this.coverURL = "bookCover.jpg";
+	}
+
+	public Book(String title, String author, String genre, String status, int pages, int rating, int isbn) {
+		this.title = title;
+		this.author = author;
+		this.genre = genre;
+		this.status = status;
+
+		this.pages = pages;
+		this.rating = rating;
+		this.isbn = isbn;
+		this.coverURL = "bookCover.jpg";
 	}
 
 	public String getGenre() {

@@ -1,9 +1,12 @@
 package project.books.controller;
 
+import java.util.List;
+
 import javax.websocket.server.PathParam;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +19,7 @@ import project.books.bookProperties.Book;
 import project.books.service.BookService;
 
 @RestController
+@CrossOrigin
 public class BooksController {
 
 	private BookService service;
@@ -47,6 +51,16 @@ public class BooksController {
 		} else {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
+	}
+
+	@GetMapping("/getbooks")
+	public ResponseEntity<List<Book>> getBooks() {
+		return ResponseEntity.ok(this.service.getBooks());
+	}
+
+	@GetMapping("/getbook/{id}")
+	public ResponseEntity<Book> getBook(@PathVariable Long id) {
+		return ResponseEntity.ok(this.service.findBookByID(id));
 	}
 
 }

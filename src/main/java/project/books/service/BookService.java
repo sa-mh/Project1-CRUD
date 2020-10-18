@@ -1,5 +1,7 @@
 package project.books.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -46,4 +48,11 @@ public class BookService {
 		return !this.repo.existsById(id);
 	}
 
+	public List<Book> getBooks() {
+		return this.repo.findAll();
+	}
+
+	public Book findBookByID(Long id) {
+		return this.repo.findById(id).orElseThrow(BookNotFound::new);
+	}
 }
